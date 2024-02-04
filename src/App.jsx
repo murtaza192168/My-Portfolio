@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import styles from'./App.module.css'
+import { Navbar } from './components/Navbar/Navbar';
+import { Hero } from './components/Hero/Hero';
+import { About } from './components/About/About';
+import { Experience } from './components/Experience/Experience';
+import { Projects } from './components/Projects/Projects';
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+  return ( // to provide STYLING TO OUR APP
+    // instead of passing a string like this; className="".. we will use variables. see.. className{}
+    // now we will give style to the .App class in  (define it in) App.module.css file
+     <div className={styles.App}>     
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      
+      
+    </div>
+    // fragments: <>...</>
   )
 }
 
-export default App
+export default App;
