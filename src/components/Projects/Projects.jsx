@@ -1,13 +1,25 @@
 import React from "react"
 import styles from "../Projects/Projects.module.css"
-import { getImageUrl } from "../../utils"
+
+import projects from "../../data/projects.json";
+import { ProjectCard } from "./ProjectCard";
 
 
 export const Projects = () => {
     return(
 
-        <section>
-            
+        <section id="projects">
+           <h2 className={styles.title}>Projects</h2> 
+
+           <div>
+            {
+                projects.map((proj, id) => {
+                    return( 
+                       <ProjectCard key={id} project={proj}/>
+                    )
+                })
+            }
+           </div>
         </section>
     )
 }
