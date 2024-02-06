@@ -9,21 +9,21 @@ export const ProjectCard = ({
     // const project = this.props.project
     return (
 
-        <div>
-                        <img src={getImageUrl(imgSrc)} alt={`Image of ${title}`} />
-                        <h3>{`${title}`}</h3>
-                        <p>{`${description}`}</p>
+        <div className={styles.container}>
+                        <img className={styles.image} src={getImageUrl(imgSrc)} alt={`Image of ${title}`} />
+                        <h3 className={styles.title}>{`${title}`}</h3>
+                        <p className={styles.description}>{`${description}`}</p>
                         {/* For skills we will use unordered list */}
-                        <ul>
+                        <ul className={styles.skills}>
                             {
                                 skills.map((skill, id) => {
-                                  return(<li key={id}>{`${skill}`}</li>)
+                                  return(<li className={styles.skill} key={id}>{`${skill}`}</li>)
                                 })
                             }
                         </ul>
-                        <div>
-                            <a href={`${demo}`}>Demo</a>
-                            <a href={`${source}`}></a>
+                        <div className={styles.links}>
+                            <a className={styles.link} href={`${demo}`}>Demo</a>
+                            <a className={styles.link} href={`${source}`}>Source</a>
                         </div>
         </div>
 
