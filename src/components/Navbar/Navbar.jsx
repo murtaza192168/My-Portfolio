@@ -10,7 +10,7 @@ export const Navbar = () => {
   // creating a functionality for Navbar
   const[menuOpen, setMenuOpen] = useState(false) // useState is false bcz we want to navbar to be hidden BY DEFAULT
   return (
-    <nav className={styles.navbar}> 
+    <nav className={styles.navbar} > 
   {/* nav: a semantic html tag that behaves just like a div tag but has a special name that let the browswer know what its function is */}
       <a className={styles.title} href="/">Portfolio</a> 
       {/* "/": means it will navigate us to the homepage */}
