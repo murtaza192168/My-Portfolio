@@ -13,10 +13,10 @@ export const Hero = () => {
              <p className={styles.description}>Being a <span className={styles.se}>Software Engineer</span>, eager to leverage a strong academic background and a passion for crafting top-notch software solutions.</p>
              {/* For contact Me and View-Resume Button */}
             
-            <div className={styles.anchorBtn}>
+            <div>
                 {
                     contactInfo.map((info, id) =>{
-                        return <div key={id}>
+                        return <div key={id} className={styles.anchorBtn} >
                             <a className={styles.contactBtn} href={info.email}>Contact Me</a>
                             <a className={styles.resumeBtn} href={info.resume}>View Resume</a>
                         </div>
