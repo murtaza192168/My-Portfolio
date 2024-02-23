@@ -10,12 +10,22 @@
     },
  
     {
-        "title": "Cars 24x7 website",
+        "title": "Cuisine Craft",
         "imgSrc": "projects/projectIcon.png",
-        "description": "I designed and developed DriveSync365, an innovative automotive hub, utilizing my expertise in HTML and CSS.",
-        "skills": ["HTML", "CSS"],
-        "demo": "https://murtaza192168.github.io/Cars_24x7-Website/",
-        "source": "https://github.com/murtaza192168/Cars_24x7-Website.git"
+        "description": "Crafted a Food Recipe app using JavaScript to fetch recipes from MealDB. Led front-end development and database integration, showcasing JavaScript skills.",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "https://cuisine-craft.netlify.app/",
+        "source": "https://github.com/murtaza192168/Unified_Mentor-Internship.git"
+    },
+
+    {
+        "title": "Chat Connect",
+        "imgSrc": "projects/projectIcon.png",
+        "description": "Developed a real-time chat app with Node.js and React.js. Enabled one-on-one messaging, group creation, and file sharing. Integrated user authentication via ChatEngine.io.",
+        "skills": ["Node JS", "React JS"],
+        "demo": "https://www.linkedin.com/posts/murtaza-shabbir-masalawala_nodejs-reactjs-realtimechat-activity-7166445368669323264-m38A?utm_source=share&utm_medium=member_desktop",
+        "source": "https://github.com/murtaza192168/Chat_Connect.git"
+    
     },
 
     {
