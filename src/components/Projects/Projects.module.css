@@ -5,6 +5,7 @@
     margin-left: 10%;
     margin-right: 10%;
     color: var(--color-text);
+    /* align-items: flex-end; */
 }
 .title{
     text-transform: uppercase;
