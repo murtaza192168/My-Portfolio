@@ -17,8 +17,12 @@
         "imgSrc": "skills/javaScript.png"
     },
     {
-        "title": "React.js",
+        "title": "React JS",
         "imgSrc": "skills/react.png"
+    },
+    {
+        "title": "Git",
+        "imgSrc": "skills/git.png"
     },
     {
         "title": "Canva",
