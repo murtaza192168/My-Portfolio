@@ -4,8 +4,8 @@
         "role": " Web Desiner | Developer",
         "organisation": "Oasis Infobyte",
         "startDate": "Feb, 2024",
-        "endDate": "Present",
-        "experiences": ["Designing user interfaces", "Working on translating UI into code using the React JavaScript framework"],
+        "endDate": "Mar, 2024",
+        "experiences": ["Designed user interfaces", "Worked on translating UI into code using the React JavaScript framework"],
         "imgSrc": "history/oasisInfobyteIcon.png"
     }, 
 
@@ -14,7 +14,7 @@
         "organisation": "Unified Mentor",
         "startDate": "Jan, 2024",
         "endDate": "Present",
-        "experiences": ["Working on web technologies to fulfill business logic"],
+        "experiences": ["Worked on web technologies to fulfill business logic"],
         "imgSrc": "history/unifiedMentorIcon.png"
     },
 
