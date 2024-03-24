@@ -1,4 +1,12 @@
 [
+    {
+        "role": "Technical Support Executive",
+        "organisation": "HQHB",
+        "startDate": "Mar, 2024",
+        "endDate": "Present",
+        "experiences": ["Troubleshooting errors, Assisting customers and resolving software related issues"],
+        "imgSrc": "history/hqhbIcon.png"
+    }, 
 
     {
         "role": " Web Desiner | Developer",
