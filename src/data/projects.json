@@ -32,7 +32,7 @@
         "title": "Stock price data feed",
         "imgSrc": "projects/projectIcon.png",
         "description": "Built an interface with a stock price data feed and visually displayed data to assist our traders as a Software Engineer at JPMorgan  Job Sim",
-        "skills": ["Python", "Git", "React.js", "Financial Analysis"],
+        "skills": ["Python", "Git", "React JS", "Financial Analysis"],
         "demo": "https://www.canva.com/design/DAF76pgpoa4/KvpyYo0_ws_irZYuPUbcaA/watch?utm_content=DAF76pgpoa4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         "source": "https://github.com/murtaza192168/forage-jpmc-swe-task-1.git"
     }
