@@ -1,13 +1,4 @@
 [
-
-    {
-        "title": "HTML5",
-        "imgSrc": "skills/html5.png"
-    },
-    {
-        "title": "CSS",
-        "imgSrc": "skills/css.png"
-    },
     {
         "title": "Java",
         "imgSrc": "skills/java.png"
